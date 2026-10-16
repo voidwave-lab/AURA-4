@@ -1,0 +1,6 @@
+{
+  "name": "AURA-4: Analog Waveform TUI Synthesizer",
+  "description": "Terminal-based 4-oscillator analog emulation synthesizer with 4x4 FM cross-modulation, Red Panda Particle V2 granular glitch delay, effects rack, and real-time character-based waveform visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

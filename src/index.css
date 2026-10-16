@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #050505;
+    color: #e5e5e5;
+  }
+}
+
+/* CRT Scanlines Overlay */
+.crt-overlay::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.28) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  z-index: 40;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+/* CRT Vignette / Screen Curvature Glow */
+.crt-vignette {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8), inset 0 0 30px rgba(0, 0, 0, 0.95);
+}
+
+/* Phosphor Glow Utilities */
+.glow-amber {
+  text-shadow: 0 0 4px rgba(255, 176, 0, 0.45);
+}
+
+.glow-green {
+  text-shadow: 0 0 4px rgba(0, 255, 102, 0.45);
+}
+
+.glow-cyan {
+  text-shadow: 0 0 4px rgba(0, 240, 255, 0.45);
+}
+
+.glow-matrix {
+  text-shadow: 0 0 4px rgba(34, 197, 94, 0.45);
+}
+
+/* Custom Minimal Terminal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: currentColor;
+  opacity: 0.3;
+}
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.6;
+}
+
+/* 16-step sequencer grid */
+.grid-cols-16 {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
