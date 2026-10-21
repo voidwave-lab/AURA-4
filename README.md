@@ -269,6 +269,9 @@ Switchable from the top header or via theme selection:
 ## Project Structure
 
 ```
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # GitHub Actions CI pipeline (Linux, macOS, Windows)
 ├── LICENSE                        # GNU General Public License v3.0
 ├── README.md                      # Comprehensive user manual and compilation guide
 ├── index.html                     # HTML5 entry point with JetBrains Mono font
