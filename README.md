@@ -269,6 +269,7 @@ Switchable from the top header or via theme selection:
 ## Project Structure
 
 ```
+├── LICENSE                        # GNU General Public License v3.0
 ├── README.md                      # Comprehensive user manual and compilation guide
 ├── index.html                     # HTML5 entry point with JetBrains Mono font
 ├── metadata.json                  # AI Studio application metadata
@@ -308,4 +309,4 @@ Switchable from the top header or via theme selection:
 
 ## License
 
-Apache-2.0
+All source code in this project is licensed under the **GNU General Public License v3.0 (GPL-3.0-or-later)**. See [`LICENSE`](./LICENSE) for the full license text.

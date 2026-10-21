@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React from 'react';
 import { Preset, OscillatorConfig, FmMatrix, GranularConfig, EffectsConfig } from '../types/synth';
 import { PRESETS, AMBIENT_SCALES } from '../data/presets';

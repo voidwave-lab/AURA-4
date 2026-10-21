@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 export interface RustFile {
   name: string;
   path: string;
@@ -14,6 +15,7 @@ export const RUST_PROJECT_FILES: RustFile[] = [
 name = "aura4-synth"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-or-later"
 authors = ["AURA-4 Synthesis Laboratory <audio@aura4.terminal>"]
 description = "Terminal TUI 4-Oscillator Analog Waveform Synthesizer with FM Matrix & Granular Delay"
 
@@ -638,6 +640,9 @@ cargo run --release
 - \`F\`: Toggle Granular Buffer Freeze
 - \`V\`: Toggle CRT Scanlines & Phosphor Glow
 - \`Q\` or \`Esc\`: Clean exit
+
+## License
+All source code in this project is licensed under the **GNU General Public License v3.0 (GPL-3.0-or-later)**.
 `,
   },
 ];

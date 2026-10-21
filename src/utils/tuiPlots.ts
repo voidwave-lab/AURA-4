@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 /**
  * Terminal Character-Based Visualization Utilities
  * Uses Unicode Braille patterns (U+2800 to U+28FF) and Block Elements (U+2580 to U+259F)

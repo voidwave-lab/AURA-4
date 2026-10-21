@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import { Preset } from '../types/synth';
 
 export const PRESETS: Preset[] = [

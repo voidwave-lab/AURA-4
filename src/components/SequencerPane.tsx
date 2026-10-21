@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React, { useState, useEffect } from 'react';
 import { SequencerConfig, TrackConfig, StepConfig, StepParamType, ClockDivision, SequencerDirection } from '../types/synth';
 import { audioEngine } from '../audio/AudioEngine';

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 export type WaveformType = 'sine' | 'sawtooth' | 'triangle' | 'square';
 
 export interface OscillatorConfig {

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React, { useState } from 'react';
 import { RUST_PROJECT_FILES, RustFile } from '../data/rustCodebase';
 import { Copy, Check, Download, Terminal, FolderTree } from 'lucide-react';

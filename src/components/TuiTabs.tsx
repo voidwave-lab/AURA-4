@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React from 'react';
 
 export type TabId = 'oscillators' | 'fm' | 'lfo' | 'sequencer' | 'particle' | 'effects' | 'sampler' | 'scopes' | 'presets' | 'rust';

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React from 'react';
 import { GranularConfig, ParticleMode } from '../types/synth';
 import { renderAsciiSlider } from '../utils/tuiPlots';

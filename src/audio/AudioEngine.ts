@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 /**
  * High-Performance Low-Latency Audio Synthesis Engine
  * Features:

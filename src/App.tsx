@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 /**
  * AURA-4: Terminal (TUI) Analog Waveform Synthesizer
  * 4-Oscillator Analog Emulation with 4x4 FM Cross-Modulation,

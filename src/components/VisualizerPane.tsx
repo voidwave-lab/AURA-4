@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React, { useState, useEffect, useRef } from 'react';
 import { audioEngine } from '../audio/AudioEngine';
 import { renderBrailleWaveform, renderBlockSpectrum, renderLissajous } from '../utils/tuiPlots';

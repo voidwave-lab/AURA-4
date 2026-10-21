@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React from 'react';
 import { X, Keyboard, Radio, Sliders, Cpu } from 'lucide-react';
 

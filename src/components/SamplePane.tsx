@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 import React, { useRef, useState, useEffect } from 'react';
 import { SampleConfig } from '../types/synth';
 import { audioEngine } from '../audio/AudioEngine';
